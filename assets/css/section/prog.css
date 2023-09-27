@@ -1,0 +1,253 @@
+.programm {
+}
+.container {
+}
+.prog__container {
+}
+.prog__title {
+    font-size: 72px;
+    margin-top: 11%;
+    margin-bottom: 7%;
+}
+
+.prog__select {
+}
+.select-course {
+color: #000;
+font-family: 'Roboto',sans-serif;
+font-size: 24px;
+font-weight: 400;
+border-radius: 8px;
+border: 1px solid #000;
+background: #FFF;
+margin-bottom: 6%;
+width: 100%;
+padding: 1.5% 0 1.5% 1.5%;
+}
+.prog__form {
+}
+.prog__form-cource {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 20px 18px;
+border: 3px solid #C28221;
+background: #FFF;
+padding: 49px 57px 96px 63px;
+}
+.form__header {
+    display: flex;
+    margin-bottom: 53px;
+}
+.cource__title {
+        color: #000;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+margin: 0;
+
+}
+.cource__cost {
+    color: #000;
+font-family: 'Roboto';
+font-size: 16px;
+font-weight: 400;
+margin: 0;
+white-space: nowrap;
+}
+
+.course__price{
+    color: #000;
+font-family: 'Roboto';
+font-size: 24px;
+font-weight: 500;
+}
+.cource__info {
+    display: flex;
+    margin-bottom: 106px;
+}
+.cource__begin {
+    display: flex;
+    margin-right: 48px;
+}
+.cource__begin-icon {
+    margin-right: 20px;
+}
+.cource__begin-date {
+    color: #000;
+font-family: 'Roboto';
+font-size: 24px;
+font-weight: 500;
+text-transform: uppercase;
+margin: 0;
+}
+.cource__duration {
+    display: flex;
+}
+.cource__duration-icon {
+    margin-right: 20px;
+}
+.cource__duration-hours {
+    color: #000;
+font-family: 'Roboto';
+font-size: 24px;
+font-weight: 500;
+margin: 0;
+}
+.cource__description {
+    
+}
+.cource__desc-title {
+    color: #000;
+text-align: center;
+font-family: 'Roboto';
+font-size: 24px;
+font-weight: 700;
+text-transform: uppercase;
+margin: 0 0 37px 0;
+}
+.cource__desc-text {
+    color: #000;
+font-family: 'Roboto';
+font-size: 16px;
+font-weight: 400;
+margin: 0 0 20px 0;
+}
+.cource__programm {
+        color: #000;
+text-align: center;
+font-family: 'Roboto';
+font-size: 24px;
+font-weight: 700;
+text-transform: uppercase;
+margin-top: 70px;
+}
+.programm__accord-list {
+}
+.accord-item {
+    border-top: #000 solid 2px;
+}
+.accord-item:last-child{
+    border-bottom: #000 solid 2px;
+}
+.accord-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px 30px 20px;
+    
+}
+.accord-link__text {
+    color: #000;
+font-family: 'Roboto';
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.accord-link__icon {
+}
+.accord-body {
+    padding: 0 40px 0 20px;
+}
+.accord-body__duration {
+    display: flex;
+}
+.accord-duration__img{
+    width: 17.999px;
+    height: 19px;
+    flex-shrink: 0; 
+}
+.accord-duration__theory {
+    color: #000;
+font-family: 'Roboto';
+font-size: 14px;
+font-weight: 400;
+margin: 0 0 0 13px;
+}
+.accord-duration__practice {
+     color: #000;
+font-family: 'Roboto';
+font-size: 14px;
+font-weight: 400;
+margin: 0 0 0 43px;
+}
+.accord-body__text {
+    color: #000;
+font-family: 'Roboto';
+font-size: 16px;
+font-weight: 400;
+margin: 27px 0 32px 0;
+}
+.cource__learn {
+}
+.corse__learn-title {
+    color: #000;
+font-family: Roboto;
+font-size: 48px;
+font-weight: 700;
+margin: 35px 0 43px 0;
+}
+.cource__learn-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 35px;
+    margin-bottom: 27px;
+    column-gap: 123px;
+    padding-left: 37px;
+}
+.coursw__learn-item {
+    color: #000;
+font-family: 'Roboto';
+font-size: 16px;
+font-weight: 400;
+width: calc((100% - 246px) / 3);
+list-style-type: disc;
+
+}
+.form__btns {
+    display: flex;
+}
+.cource__form {
+    color: #000;
+font-family: 'Roboto';
+font-size: 24px;
+font-weight: 700;
+border-radius: 20px;
+border: 1px solid #000;
+margin-right: 14px;
+}
+.application {
+}
+.form__aplication {
+    color: #FFF;
+text-align: center;
+font-family: 'Roboto';
+font-size: 24px;
+font-weight: 700;
+margin-right: 14px;
+}
+.form__btn-item{
+    display: flex;
+    height: 79px;
+    width: 318px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 20px;
+border: 1px solid #E7E7E7;
+background: #C28221;
+}
+
+.cource__form-option{
+    text-align: center;
+}
+
+.form__btn {
+    color: #FFF;
+text-align: center;
+font-family: 'Roboto';
+font-size: 24px;
+font-weight: 700;
+}
