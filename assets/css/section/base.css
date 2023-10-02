@@ -63,3 +63,6 @@ a {
 .active {
     color:#667EEA;
 }
+p{
+    margin: 0;
+}

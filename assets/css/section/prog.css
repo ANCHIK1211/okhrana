@@ -1,4 +1,5 @@
 .programm {
+    
 }
 .container {
 }
@@ -176,6 +177,7 @@ font-family: 'Roboto';
 font-size: 16px;
 font-weight: 400;
 margin: 27px 0 32px 0;
+padding-right: 42px;
 }
 .cource__learn {
 }
@@ -225,11 +227,12 @@ font-family: 'Roboto';
 font-size: 24px;
 font-weight: 700;
 margin-right: 14px;
+height: 79px;
+width: 318px;
 }
 .form__btn-item{
     display: flex;
-    height: 79px;
-    width: 318px;
+   
     align-items: center;
     justify-content: center;
 }
