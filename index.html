@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/stylesheet.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <link rel="stylesheet" href="assets/css/media.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
                     <div class="header-tp">
                         <div class="htp-left">
                             <ul class="htp-left__list">
-                                <li><a href="#" class="htp-left__link active">Частым клиентам</a></li>
+                                <li><a href="#" class="htp-left__link ">Частым клиентам</a></li>
                                 <li><a href="№" class="htp-left__link"></a>Бизнесу</li>
                             </ul>
                         </div>
@@ -69,6 +69,27 @@
                 </div>
             </div>
         </header>
+        <div class="header__mobile">
+            <div class="container container-header__mobile">
+                <div class="nav-header__mobile">
+                    <div class="logo__mobile-wrap">
+                        <a href="#" class="logo-link__mobile">
+                            <img src="assets/img/icon/logo__mobile.svg" alt="" class="logo-icon__mobile">
+                        </a>
+                    </div>
+                    <div class="nav__mobile-wrap" >
+                        <img src="assets/img/icon/search__mobile.svg" alt="">
+                        <!-- Телефон для мобильного меню -->
+                        <button class="burger">
+                            <span class="burger__el"></span>
+                            <span class="burger__el"></span>
+                            <span class="burger__el"></span>
+                        </button>
+                        <!-- end Бургер -->
+                    </div>
+                </div>
+            </div>
+        </div>
         <section class="hero">
             <div class="container hero__container">
                 <div class="hero__content-top">
@@ -201,11 +222,11 @@
                         <div class="cource__info">
                             <div class="cource__begin">
                                 <img src="assets/img/icon/calendar.svg" alt="" class="cource__begin-icon">
-                                <p class="cource__begin-date">21.09.2021</p>
+                                <p class="cource__begin-text">21.09.2021</p>
                             </div>
                             <div class="cource__duration">
                                 <img src="assets/img/icon/clock.svg" alt="" class="cource__duration-icon">
-                                <p class="cource__duration-hours">32 часа</p>
+                                <p class="cource__begin-text">32 часа</p>
                             </div>
                         </div>
                         <div class="cource__description">
@@ -548,7 +569,7 @@
         <section class="gallery section-line-bottom">
             <div class="container">
                 <h2 class="title gallery__title">
-                   <span class="color">Галерея</span>  курса
+                    <span class="color">Галерея</span> курса
                 </h2>
             </div>
             <!-- Слайдер -->
@@ -570,7 +591,7 @@
                     <li class="gallery__item">
                         <img src="assets/img/gallery25.jpg" alt="" class="gallery__img">
                     </li>
-                    
+
                 </ul>
             </div>
             <ul class="slider-indicators gallery__slider-indicators">
@@ -596,6 +617,11 @@
                         <div class="quest__theme-link">Накопительный счёт</div>
                         <div class="quest__theme-link">Безопасность</div>
                         <div class="quest__theme-link">Дополнительные преимущества по карте</div>
+                    </div>
+                    <div class="prog__select quest__select">
+                        <select name="" id="" class="select-course">
+                            <option value="" selected>ПТМ в культурно-просветительских учреждениях</option>
+                        </select>
                     </div>
                     <div class="programm__accord-list quest__accord-list">
                         <div class="accord-item">

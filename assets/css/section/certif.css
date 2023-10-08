@@ -9,7 +9,7 @@
     border: 3px solid #C28221;
     padding: 53px 97px 84px 59px;
     display: flex;
-    
+    justify-content: space-between;
 }
 .certif__text {
 }
@@ -36,8 +36,18 @@ font-style: normal;
 margin-top: 16px;
 }
 .sertif__img {
-    margin-left: 96px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-left: 8%;
 }
 .sertif__img1{
     margin-bottom: 13px;
+    width: 285px;
+height: 202px;
+}
+.sertif__img2{
+    margin-bottom: 13px;
+    width: 285px;
+height: 202px;
 }

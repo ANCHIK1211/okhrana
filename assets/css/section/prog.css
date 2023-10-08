@@ -6,7 +6,7 @@
 .prog__container {
 }
 .prog__title {
-    font-size: 72px;
+    font-size: 3.8vw;
     margin-top: 11%;
     margin-bottom: 7%;
 }
@@ -24,6 +24,7 @@ background: #FFF;
 margin-bottom: 6%;
 width: 100%;
 padding: 1.5% 0 1.5% 1.5%;
+height: 75px;
 }
 .prog__form {
 }
@@ -33,18 +34,19 @@ padding: 1.5% 0 1.5% 1.5%;
     border-radius: 20px 20px 20px 18px;
 border: 3px solid #C28221;
 background: #FFF;
-padding: 49px 57px 96px 63px;
+padding: 4.1% 4.8% 8.1% 5.3%;
 }
 .form__header {
     display: flex;
-    margin-bottom: 53px;
+    margin-bottom: 4.5%;
+    align-items: center;
 }
 .cource__title {
         color: #000;
 font-family: Roboto;
-font-size: 36px;
+font-size: 1.9vw;
 font-weight: 700;
-margin: 0;
+margin-right: 8%;
 
 }
 .cource__cost {
@@ -64,36 +66,32 @@ font-weight: 500;
 }
 .cource__info {
     display: flex;
-    margin-bottom: 106px;
+    margin-bottom: 8.7%;
 }
 .cource__begin {
     display: flex;
     margin-right: 48px;
+    align-items: center;
 }
 .cource__begin-icon {
     margin-right: 20px;
 }
-.cource__begin-date {
+.cource__begin-text {
     color: #000;
 font-family: 'Roboto';
-font-size: 24px;
+font-size: 1.2vw;
 font-weight: 500;
 text-transform: uppercase;
 margin: 0;
 }
 .cource__duration {
     display: flex;
+    align-items: center;
 }
 .cource__duration-icon {
     margin-right: 20px;
 }
-.cource__duration-hours {
-    color: #000;
-font-family: 'Roboto';
-font-size: 24px;
-font-weight: 500;
-margin: 0;
-}
+
 .cource__description {
     
 }
@@ -104,7 +102,7 @@ font-family: 'Roboto';
 font-size: 24px;
 font-weight: 700;
 text-transform: uppercase;
-margin: 0 0 37px 0;
+margin: 0 0 4% 0;
 }
 .cource__desc-text {
     color: #000;
@@ -120,7 +118,8 @@ font-family: 'Roboto';
 font-size: 24px;
 font-weight: 700;
 text-transform: uppercase;
-margin-top: 70px;
+margin-top: 7%;
+margin-bottom: 7%;
 }
 .programm__accord-list {
 }
@@ -176,7 +175,7 @@ margin: 0 0 0 43px;
 font-family: 'Roboto';
 font-size: 16px;
 font-weight: 400;
-margin: 27px 0 32px 0;
+margin: 0px 0 32px 0;
 padding-right: 42px;
 }
 .cource__learn {
@@ -184,7 +183,7 @@ padding-right: 42px;
 .corse__learn-title {
     color: #000;
 font-family: Roboto;
-font-size: 48px;
+font-size: 46px;
 font-weight: 700;
 margin: 35px 0 43px 0;
 }
@@ -229,12 +228,14 @@ font-weight: 700;
 margin-right: 14px;
 height: 79px;
 width: 318px;
+
 }
 .form__btn-item{
     display: flex;
    
     align-items: center;
     justify-content: center;
+    width: calc((100% - 28px) / 3);
 }
 
 .btn {

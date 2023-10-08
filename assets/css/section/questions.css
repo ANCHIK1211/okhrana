@@ -29,3 +29,7 @@ line-height: 298.9%;
 .quest__accord-list{
     width: 60%;
 }
+
+.quest__select{
+    display: none;
+}

@@ -13,11 +13,14 @@
     
 }
 .desc__img{
+   flex-shrink: 0;
 
 }
 .desc__img-icon {
     border-radius: 60px 0px;
 border: 0px solid #000;
+width: 254px;
+height: 231px;
 }
 .desc__content {
     padding-left: 30px;

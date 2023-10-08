@@ -7,32 +7,36 @@
 .format__container {}
 
 .format__title {
-    font-size: 72px;
+    font-size: 3.9vw;
     margin-bottom: 65px;
 }
 
 .format__btns {
-    color: #000;
+    
     font-family: 'Roboto';
     font-size: 36px;
     font-weight: 400;
     display: flex;
     justify-content: center;
     margin-bottom: 108px;
+    column-gap: 25%;
 }
 
 .btn__distance {
     margin-right: 292px;
+    color: #000;
 }
 
 .btn__distance.active {
-    color: #000;
-
+ 
+margin: 0;
 }
 
 .active {}
 
-.btn__ochno {}
+.btn__ochno {
+    color: #000;
+}
 
 .format__content {
     display: flex;
@@ -41,8 +45,8 @@
 }
 
 .format__img-wrap {
-    margin-left: 163px;
-    margin-right: 95px;
+    margin-left: 13.8%;
+    margin-right: 8%;
 }
 
 .format__img {
