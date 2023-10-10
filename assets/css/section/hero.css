@@ -62,7 +62,7 @@
     font-size: 14px;
     padding: 14px 64px;
     margin-top: 7.1%;
-    display: block;
+ display: inline-block;
     width: 220px;
     margin-bottom: 12.2%;
 }
@@ -103,4 +103,8 @@ align-items: center;
 .adv__subtitle {
     color: #473F32;
     font-size: 16px;
+}
+
+.hero__img-wrap__mobile{
+    display: none;
 }

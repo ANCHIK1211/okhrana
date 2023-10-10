@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -97,12 +97,15 @@
                         <h1 class="title hero__title">
                             Охрана <span class="color">труда</span>
                         </h1>
+                        <div class="hero__img-wrap__mobile">
+                            <img src="assets/img/cap.svg" alt="" class="hero__img-mobile">
+                        </div>
                         <p class="hero__subtitle subtitle">
                             Пожарная безопасность — состояние защищённости личности, имущества, общества и государства
                             от
                             пожаров. Это определение повторяет аналогичные для любых видов безопасности
                         </p>
-                        <a href="#" class="application hero__application">Записаться</a>
+                        <div class="hero__applic-wrap"><a href="#" class="application hero__application">Записаться</a></div>
                     </div>
                     <div class="hero__img-wrap">
                         <img src="assets/img/cap.svg" alt="" class="hero__img">
@@ -179,6 +182,7 @@
                 </ul>
             </div>
         </section>
+        
         <section class="responsibility">
             <div class="container resp__container">
                 <h1 class="title resp__title">Ответственность</h1>
@@ -225,7 +229,7 @@
                                 <p class="cource__begin-text">21.09.2021</p>
                             </div>
                             <div class="cource__duration">
-                                <img src="assets/img/icon/clock.svg" alt="" class="cource__duration-icon">
+                                <img src="assets/img/icon/clock.svg" alt="" class="cource__begin-icon">
                                 <p class="cource__begin-text">32 часа</p>
                             </div>
                         </div>
@@ -363,6 +367,30 @@
                 </div>
             </div>
         </section>
+        <section class="responsibility-mobile">
+            <div class="container resp__container">
+                <h1 class="title resp__title">Ответственность</h1>
+                <p class="subtitle resp__subtitle resp__subtitle1 ">Работодателя, допустившего к работе сотрудника, не
+                    прошедшего обучение и проверку знаний поохране труда, ждет штраф в следующих размерах (ч. 3 ст.
+                    5.27.1 КоАП РФ):</p>
+                <div class="resp__fine">
+                    <div class="fine__people fine">
+                        <p class="fine__text"> Штраф на должностных лиц и ИП <br> <span class="fine__summ"> от 15 000 до
+                                25 000 руб.</span>
+                        </p>
+                    </div>
+                    <div class="fine__company fine">
+                        <p class="fine__text"> На компанию <br> <span class="fine__summ">от 110 000 до 130 000
+                                руб.</span>
+                        </p>
+                    </div>
+                </div>
+                <p class="subtitle resp__subtitle resp__subtitle2"> Постановление Минтруда РФ и Минобразования РФ от 13
+                    января 2003 г. N 1/29 "Об утвержденииОб утвержденииПорядка обучения по охране труда и проверки
+                    знаний требований охраны труда работниковорганизаций"Об утверждени</p>
+            </div>
+        </section>
+
         <section class="privelegy">
             <div class="container">
                 <h2 class="title priv__title">Наши <span class="color"> преимущества</span></h2>
@@ -374,7 +402,7 @@
                     <button
                         class="control control_prev priv__control priv__control-prev control_type_disc">назад</button>
                     <ul class="priv-list">
-                        <li class="priv">
+                        <li class="priv priv__first">
                             <div class="priv__content">
                                 <div class="priv__img-wrap">
                                     <img src="assets/img/priv1.jpg" alt="Фото документов" class="priv__img" width="350"
@@ -388,7 +416,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="priv">
+                        <li class="priv priv__mobile">
                             <div class="priv__content">
                                 <div class="priv__img-wrap">
                                     <img src="assets/img/priv2.jpg" alt="Фото документов" class="priv__img" width="350"
@@ -401,7 +429,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="priv">
+                        <li class="priv priv__mobile">
                             <div class="priv__content">
                                 <div class="priv__img-wrap">
                                     <img src="assets/img/priv3.jpg" alt="Фото документов" class="priv__img" width="350"
@@ -436,12 +464,21 @@
                     <button class="btn__distance active">Дистанционно</button>
                     <button class="btn__ochno">Очно</button>
                 </div>
+                <select name="" id="" class="format__select-mobile">
+                    
+                    <option value="" class="format__select">Дистанционно</option>
+                    <option value="" class="format__select">Онлайн</option>
+                </select>
                 <div class="format__content">
                     <div class="format__img-wrap">
                         <img src="assets/img/Формат.jpg" alt="" class="format__img">
                     </div>
+                    <div class="format__img-wrap__mobile">
+                        <img src="assets/img/format__mobile.svg" alt="" class="format__img-mobile">
+                    </div>
+                    
                     <div class="format__info">
-                        <p class="format__info-title">ДИСТАНЦИОННЫЙ ФОРМАТ ОБУЧЕНИЯ</p>
+                        <p class="format__info-title format__info-title__mobile">ДИСТАНЦИОННЫЙ ФОРМАТ ОБУЧЕНИЯ</p>
                         <p class="format__info-desc">Дистанционное обучение в онлайн-режиме дает возможность учиться
                             удаленно, получая в полном объеме программный материал и внимание педагога. При этом
                             сохраняется индивидуальный подход к каждому ребенку и учитывается скорость его работы.
@@ -490,7 +527,7 @@
                 <div class="applic__form-wrap">
                     <div class="applic__form-text">
                         <p class="applic__form-title">Оставьте заявку</p>
-                        <p class="applic__form-subtitle">Старт обучения: 1 сентября</p>
+                        <p class="applic__form-subtitle"><span class="applic__subtitle-mobile">Старт обучения:</span> 1 сентября</p>
                         <img src="assets/img/applic.jpg" alt="" class="applic__form-img">
                     </div>
                     <form class="applic__form">
@@ -535,7 +572,7 @@
                                     <img src="assets/img/teach1.svg" alt="" class="teach__img">
                                 </div>
                             </div>
-                            <p class="teacher__title">антон андреевич</p>
+                            <p class="teacher__title">Антон Андреевич</p>
                             <p class="teacher__subtitle">Формулы, диаграммы, сводные таблицы. Возможности </p>
                         </li>
                         <li class="teacher">
@@ -544,7 +581,7 @@
                                     <img src="assets/img/teach2.jpg" alt="" class="teach__img">
                                 </div>
                             </div>
-                            <p class="teacher__title">антон андреевич</p>
+                            <p class="teacher__title">Антон Андреевич</p>
                             <p class="teacher__subtitle">Формулы, диаграммы, сводные таблицы. Возможности </p>
                         </li>
                         <li class="teacher">
@@ -553,7 +590,7 @@
                                     <img src="assets/img/teach2.jpg" alt="" class="teach__img">
                                 </div>
                             </div>
-                            <p class="teacher__title">антон андреевич</p>
+                            <p class="teacher__title">Антон Андреевич</p>
                             <p class="teacher__subtitle">Формулы, диаграммы, сводные таблицы. Возможности </p>
                         </li>
                     </ul>

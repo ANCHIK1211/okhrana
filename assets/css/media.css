@@ -1,12 +1,15 @@
 @media (max-width: 2000px) {
     :root {
-        --container-width: 62.1%
+        --container-width: 63%
     }
 
     .hero__title {
         font-size: 3.8vw;
     }
 }
+
+
+
 
 @media (max-width: 1440px){
     .sertif__wrap{
@@ -42,11 +45,30 @@
         justify-content: flex-end;
         
     }
+    .fine__summ{
+        font-size: 20px;
+    }
+    .fine__text{
+        font-size: 14px;
+    }
+    .resp__subtitle{
+        font-size: 16px;
+    }
+    .resp__title{
+        font-size: 48px;
+    }
 }
 
 
 
+
+
+
 @media (max-width: 1150px) {
+
+    :root {
+        --container-width: 75%
+    }
     
     .adv__title {
         font-size: 16px;
@@ -108,13 +130,13 @@
         border-radius: 20px;
         background: #C28221;
         height: 79px;
-        width: 301px;
+        width: 50%;
         flex-shrink: 0;
 
     }
     .btn__ochno{
         height: 79px;
-        width: 301px;
+      width: 50%;
         border-radius: 20px;
 border: 1px solid #000;
     }
@@ -187,15 +209,315 @@ height: 201px;
     .quest__accord-list{
         width: 100%;
     }
+    .priv__title{
+        font-size: 48px;
+        margin-top: 86px;
+        margin-bottom: 70px;
+    }
+    
 }
 
 
-@media (max-width: 480px) {
-    .container{
-        position: relative;
-        max-width: 480px;
+@media (max-width: 940px){
+    .fine__summ{
+        font-size: 14px;
+    }
+    .fine__text{
+        font-size: 10px;
+    }
+    .form__applic-subtitle{
+        width: 60%;
+    }
+    .certif__title{
+        font-size: 36px;
+    }
+
+}
+
+
+
+@media (max-width: 730px){
+    :root {
+        --container-width: 88%
+    }
+    .cource__title{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+@media (max-width: 613px){
+    .hero__list{
+        display: none;
+    }
+    .hero__title{
+        font-size: 36px;
+        text-align: center;
+        margin-top: 34px;
+        margin-bottom: 26px;
+    }
+    .hero__img-wrap__mobile{
+        display: block;
+     
+    }
+    .hero__img-wrap{
+        display: none;
         
     }
+    .hero__content-top {
+        display: block;
+    }
+    .hero__img-mobile{
+        width: 160px;
+height: 127px;
+    }
+    .hero__content{
+        text-align: center;
+      align-items: center;
+    }
+    .hero__applic-wrap{
+       
+     text-align: center;
+    }
+    .description{
+        display: none;
+    }
+    .responsibility{
+        display: none;
+    }
+    .responsibility-mobile{
+        display: block;
+        background: #000;
+        margin-top: 88px;
+    }
+    .certificate{
+        display: none;
+    }
+    .law{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .prog__title{
+        font-size: 24px;
+    }
+    .accord-body__duration{
+        display: none;
+     }
+     .resp__fine{
+        display: flex;
+        flex-direction: column;
+     }
+     .fine{
+        width: 100%;
+     }
+     .fine__people{
+        margin-bottom: 30px;
+     }
+     .resp__title{
+        font-size: 24px;
+     }
+     .resp__subtitle{
+        font-size: 14px;
     
+     }
+     .fine__summ{
+        font-size: 16px;
+        line-height: 20px;
+     }
+     .format__btns{
+        display: none;
+     }
+     .format__select-mobile{
+        display: block;
+     }
+     .format__img-wrap{
+        display: none;
+     }
+     .format__img-wrap__mobile{
+        display: block;
+     }
+     .format__content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+     }
+     .format__info-desc{
+        text-align: left;
+     }
+     .format__title{
+        font-size: 24px;
+        margin-bottom: 40px;
+     }
+     .format__info-desc{
+        margin: 29px 0 0 0;
+        font-size: 14px;
+     }
+     .applic__title{
+        font-size: 38px;
+     }
+     .applic__form-wrap{
+        padding: 27px 60px 60px;
+     }
 
+     .applic__input-label{
+        width: 100%;
+     }
+     .applic__form{
+        position: relative;
+     }
+     .applic__input {
+      padding: 0;
+        width: 100%;
+        height: 40px;
+        margin-bottom: 24px;
+    }
+    .applic__btn{
+        height: 50px;
+        width: 100%;
+    }
+    .form__applic-subtitle{
+        width: 90%;
+    }
+    .applic__btn-wrap{
+        width: 100%;
+    }
+    .section-line-bottom::after{
+        display: none;
+    }
+    }
+
+
+
+
+
+
+@media (max-width: 480px) {
+    :root {
+        --container-width: 100%
+    }
+
+    .container{
+        padding: 0 40px;
+        margin: 0 17px;
+    }
+    
+    .hero__list{
+        display: none;
+    }
+ .cource__desc-title{
+    font-size: 18px;
+ }
+ .cource__programm{
+    font-size: 18px;
+ }
+ .cource__desc-text{
+    font-size: 14px;
+ }
+ .accord-body__text{
+    font-size: 13px;
+ }
+ .corse__learn-title{
+    font-size: 24px;
+ }
+ .coursw__learn-item{
+    font-size: 14px;
+    list-style-type: none;
+ }
+ .cource__learn-list{
+    padding: 0;
+ }
+ .form__btn-item {
+    margin: 0 0 15px 0;
+    height: 53px;
+    width: 100%;
+}
+.accord-link{
+    font-size: 13px;
+    padding: 20px 8px;
+}
+.priv__title{
+    font-size: 24px;
+    margin-top: 52px;
+    margin-bottom: 40px;
+}
+.priv {
+    width: 248px;
+}
+.priv__img-wrap {
+    height: 130px;
+}
+.priv__info-title{
+    font-size: 18px;
+}
+.priv__info-subtitle{
+    font-size: 14px;
+}
+.applic__title{
+    font-size: 24px;
+ }
+ .applic__form-wrap{
+    padding: 27px 27px 67px;
+ }
+ .applic__form-title{
+    font-size: 18px;
+    margin-bottom: 33px;
+ }
+ .applic__subtitle-mobile{
+    color: #C28221;
+ }
+ .applic__btn{
+font-size: 18px;
+ }
+ .quest__title{
+    font-size: 24px;
+    margin-bottom: 35px;   
+ }
+ .gallery{
+    padding: 0;
+ }
+ .questions{
+    padding: 80px 0;
+ }
+ .select-course{
+    border-radius: 40px;
+text-align: center;
+font-size: 17px;
+ }
+ .teachers{
+    padding: 67px 0 80px;
+ }
+ .teach_title{
+    font-size: 24px;
+    margin-bottom: 40px;
+ }
+ .teacher__title{
+    font-size: 18px;
+    text-transform: capitalize;
+ }
+ .teacher__subtitle{
+    font-size: 14px;
+    text-transform: capitalize;
+ }
+ .cource__begin-icon{
+    height: 19px;
+    width: 19px;
+    margin-right: 10px;
+ }
+ .cource__begin-text{
+font-size: 12px;
+ }
+ .cource__begin{
+    margin-right: 15px;
+ }
+ .form__header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+ }
 }
