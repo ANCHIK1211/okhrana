@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/stylesheet.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media.css">
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 <body>
     <div class="wrapper">
@@ -77,19 +77,23 @@
                             <img src="assets/img/icon/logo__mobile.svg" alt="" class="logo-icon__mobile">
                         </a>
                     </div>
-                    <div class="nav__mobile-wrap" >
-                        <img src="assets/img/icon/search__mobile.svg" alt="">
-                        <!-- Телефон для мобильного меню -->
-                        <button class="burger">
-                            <span class="burger__el"></span>
-                            <span class="burger__el"></span>
-                            <span class="burger__el"></span>
-                        </button>
+                    <div class="nav__mobile-wrap">
+                        <div class="hbt__search hbt__search-icon hbt__search-mobile">
+                            <input type="text" class="search">
+                        </div>
+                        <div class="burger-wrap">
+                            <button class="burger">
+                                <span class="burger__el"></span>
+                                <span class="burger__el"></span>
+                                <span class="burger__el"></span>
+                            </button>
+                        </div>
                         <!-- end Бургер -->
                     </div>
                 </div>
             </div>
         </div>
+
         <section class="hero">
             <div class="container hero__container">
                 <div class="hero__content-top">
@@ -105,7 +109,8 @@
                             от
                             пожаров. Это определение повторяет аналогичные для любых видов безопасности
                         </p>
-                        <div class="hero__applic-wrap"><a href="#" class="application hero__application">Записаться</a></div>
+                        <div class="hero__applic-wrap"><a href="#" class="application hero__application">Записаться</a>
+                        </div>
                     </div>
                     <div class="hero__img-wrap">
                         <img src="assets/img/cap.svg" alt="" class="hero__img">
@@ -132,6 +137,7 @@
                 </ul>
             </div>
         </section>
+
         <section class="description">
             <div class="container desc__container">
                 <ul class="desc__list">
@@ -182,7 +188,7 @@
                 </ul>
             </div>
         </section>
-        
+
         <section class="responsibility">
             <div class="container resp__container">
                 <h1 class="title resp__title">Ответственность</h1>
@@ -206,6 +212,7 @@
                     знаний требований охраны труда работниковорганизаций"Об утверждени</p>
             </div>
         </section>
+
         <section class="programm">
             <div class="container prog__container">
                 <div class="prog__title">
@@ -247,8 +254,9 @@
                                     <div class="accord-link__text">
                                         КАК ПРАВИЛЬНО ПРЫГАТЬ ЧЕРЕЗ КОСТЕР?
                                     </div>
-                                    <div class="accord-link__icon">
-                                        <img src="assets/img/icon/accord.svg" alt="">
+                                    <div class="accord-link__btns">
+                                        <button class="accord-link__btn1">+</button>
+                                        <button class="accord-link__btn2">x</button>
                                     </div>
                                 </div>
                                 <div class="accord-body">
@@ -267,8 +275,9 @@
                                     <div class="accord-link__text">
                                         КАК ПРАВИЛЬНО ПРЫГАТЬ ЧЕРЕЗ КОСТЕР?
                                     </div>
-                                    <div class="accord-link__icon">
-                                        <img src="assets/img/icon/accord.svg" alt="">
+                                    <div class="accord-link__btns">
+                                        <button class="accord-link__btn1">+</button>
+                                        <button class="accord-link__btn2">x</button>
                                     </div>
                                 </div>
                                 <div class="accord-body">
@@ -287,8 +296,9 @@
                                     <div class="accord-link__text">
                                         КАК ПРАВИЛЬНО ПРЫГАТЬ ЧЕРЕЗ КОСТЕР?
                                     </div>
-                                    <div class="accord-link__icon">
-                                        <img src="assets/img/icon/accord.svg" alt="">
+                                    <div class="accord-link__btns">
+                                        <button class="accord-link__btn1">+</button>
+                                        <button class="accord-link__btn2">x</button>
                                     </div>
                                 </div>
                                 <div class="accord-body">
@@ -307,8 +317,9 @@
                                     <div class="accord-link__text">
                                         КАК ПРАВИЛЬНО ПРЫГАТЬ ЧЕРЕЗ КОСТЕР?
                                     </div>
-                                    <div class="accord-link__icon">
-                                        <img src="assets/img/icon/accord.svg" alt="">
+                                    <div class="accord-link__btns">
+                                        <button class="accord-link__btn1">+</button>
+                                        <button class="accord-link__btn2">x</button>
                                     </div>
                                 </div>
                                 <div class="accord-body">
@@ -327,9 +338,11 @@
                                     <div class="accord-link__text">
                                         КАК ПРАВИЛЬНО ПРЫГАТЬ ЧЕРЕЗ КОСТЕР?
                                     </div>
-                                    <div class="accord-link__icon">
-                                        <img src="assets/img/icon/accord.svg" alt="">
+                                    <div class="accord-link__btns">
+                                        <button class=" accord-link__btn accord-link__btn1">+</button>
+                                        <button class=" accord-link__btn2">x</button>
                                     </div>
+
                                 </div>
                                 <div class="accord-body">
                                     <div class="accord-body__duration">
@@ -343,6 +356,14 @@
                                 </div>
                             </div>
                         </div>
+                        <script>
+                            $(function () {
+                                $('.programm__accord-list').accordion();
+                            });
+
+
+                        </script>
+
                         <div class="cource__learn">
                             <p class="corse__learn-title">Чему научитесь на нашем курсе:</p>
                             <ul class="cource__learn-list">
@@ -367,6 +388,7 @@
                 </div>
             </div>
         </section>
+
         <section class="responsibility-mobile">
             <div class="container resp__container">
                 <h1 class="title resp__title">Ответственность</h1>
@@ -394,14 +416,8 @@
         <section class="privelegy">
             <div class="container">
                 <h2 class="title priv__title">Наши <span class="color"> преимущества</span></h2>
-            </div>
-            <div class="priv-slider">
-                <div class="container priv-slider__container ">
-                    <button
-                        class="control control_prev priv__control priv__control-prev control_type_triangle">назад</button>
-                    <button
-                        class="control control_prev priv__control priv__control-prev control_type_disc">назад</button>
-                    <ul class="priv-list">
+                <div class="priv__slider">
+                    <ul class="priv-list priv__slider-line">
                         <li class="priv priv__first">
                             <div class="priv__content">
                                 <div class="priv__img-wrap">
@@ -411,7 +427,8 @@
                                 <div class="priv__info">
                                     <p class="priv__info-title">Документы ФРДО</p>
                                     <p class="priv__info-subtitle">Данные о документах вносятся в федеральную
-                                        информационную систему «Федеральный реестр сведений о документах об образовании
+                                        информационную систему «Федеральный реестр сведений о документах об
+                                        образовании
                                         и (или) о квалификации, документах об обучении» (ФИС ФРДО)</p>
                                 </div>
                             </div>
@@ -424,7 +441,8 @@
                                 </div>
                                 <div class="priv__info">
                                     <p class="priv__info-title">Без посредников</p>
-                                    <p class="priv__info-subtitle">Учебный центр «Дельфа» имеет необходимую лицензию для
+                                    <p class="priv__info-subtitle">Учебный центр «Дельфа» имеет необходимую лицензию
+                                        для
                                         обучения мерам пожарной безопасности работников организаций</p>
                                 </div>
                             </div>
@@ -443,40 +461,61 @@
                                 </div>
                             </div>
                         </li>
-                    </ul>
-                    <button
-                        class="control control_next priv__control priv__control-next control_type_triangle">вперед</button>
-                    <button
-                        class="control control_next priv__control priv__control-next control_type_disc">вперед</button>
-                    <!-- Буллеты -->
-                    <ul class="slider-indicators priv__slider-indicators">
-                        <li class="slider-indicator"></li>
-                        <li class="slider-indicator active"></li>
-                        <li class="slider-indicator"></li>
+                        <li class="priv priv__mobile">
+                            <div class="priv__content">
+                                <div class="priv__img-wrap">
+                                    <img src="assets/img/priv3.jpg" alt="Фото документов" class="priv__img" width="350"
+                                        height="183">
+                                </div>
+                                <div class="priv__info">
+                                    <p class="priv__info-title">Утвержденная программа</p>
+                                    <p class="priv__info-subtitle">Программы разработаны на основании примерных
+                                        специальных программ обучения пожарно-техническому минимуму для некоторых
+                                        категорий обучаемых</p>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
+
+                <!-- Буллеты -->
+                <ul class="slider-indicators priv__slider-indicators">
+                    <li class="gallery-arrow__back-wrap">
+                        <button class="gallery__arrow gallery__arrow-back priv__slider-prev"></button>
+                    </li>
+                    <li class="slider-indicator"></li>
+                    <li class="slider-indicator active"></li>
+                    <li class="slider-indicator"></li>
+                    <li class="gallery-arrow__next-wrap">
+                        <button class="gallery__arrow gallery__arrow-next priv__slider-next"></button>
+                </ul>
             </div>
+
         </section>
+
         <section class="format">
             <div class="container format__container">
                 <h2 class="title format__title">Форматы <span class="color"> обучения</span></h2>
-                <div class="format__btns">
-                    <button class="btn__distance active">Дистанционно</button>
-                    <button class="btn__ochno">Очно</button>
-                </div>
+                <ul class="format__btns">
+                    <li class="btn__distance active"><a href="#format-distance" class="format__control">Дистанционно</a>
+                    </li>
+                    <li class="btn__distance"><a href="#format-ochno" class="format__control">Очно</a></li>
+                </ul>
                 <select name="" id="" class="format__select-mobile">
-                    
-                    <option value="" class="format__select">Дистанционно</option>
-                    <option value="" class="format__select">Онлайн</option>
+                    <option>Выберите формат</a></option>
+                    <option value="format-distance__mobile" class="format__select active"><a href="#format-distance"
+                            class="format__control-mobile">Дистанционно</a></option>
+                    <option value="format-ochno__mobile" class="format__select"><a href="#format-ochno"
+                            class="format__control-mobile">Очно</a></option>
                 </select>
-                <div class="format__content">
+                <div class="format__content active format__content-mobile format-distance__mobile" id="format-distance">
                     <div class="format__img-wrap">
                         <img src="assets/img/Формат.jpg" alt="" class="format__img">
                     </div>
                     <div class="format__img-wrap__mobile">
                         <img src="assets/img/format__mobile.svg" alt="" class="format__img-mobile">
                     </div>
-                    
+
                     <div class="format__info">
                         <p class="format__info-title format__info-title__mobile">ДИСТАНЦИОННЫЙ ФОРМАТ ОБУЧЕНИЯ</p>
                         <p class="format__info-desc">Дистанционное обучение в онлайн-режиме дает возможность учиться
@@ -486,8 +525,29 @@
                             работы.</p>
                     </div>
                 </div>
+                <div class="format__content format__content-mobile format-ochno__mobile" id="format-ochno">
+                    <div class="format__img-wrap">
+                        <img src="assets/img/Формат.jpg" alt="" class="format__img">
+                    </div>
+                    <div class="format__img-wrap__mobile">
+                        <img src="assets/img/format__mobile.svg" alt="" class="format__img-mobile">
+                    </div>
+
+                    <div class="format__info">
+                        <p class="format__info-title format__info-title__mobile">ОЧНЫЙ ФОРМАТ ОБУЧЕНИЯ</p>
+                        <p class="format__info-desc">Очное обучение.</p>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <script>
+            $(function () {
+                $('.format').tabs();
+            });
+        </script>
+
+
         <section class="certificate">
             <div class="container certif__container">
                 <div class="sertif__wrap">
@@ -506,6 +566,7 @@
                 </div>
             </div>
         </section>
+
         <section class="law">
             <div class="container law__container">
                 <div class="law__wrap">
@@ -514,6 +575,7 @@
                 </div>
             </div>
         </section>
+
         <section class="kashback">
             <div class="container kash__container">
                 <div class="kashback__img">
@@ -521,13 +583,15 @@
                 </div>
             </div>
         </section>
+
         <section class="application__form">
             <div class="container applic__container">
                 <h2 class="title applic__title"><span class="color">Запишитесь</span> на курс прямо сейчас</h2>
                 <div class="applic__form-wrap">
                     <div class="applic__form-text">
                         <p class="applic__form-title">Оставьте заявку</p>
-                        <p class="applic__form-subtitle"><span class="applic__subtitle-mobile">Старт обучения:</span> 1 сентября</p>
+                        <p class="applic__form-subtitle"><span class="applic__subtitle-mobile">Старт обучения:</span> 1
+                            сентября</p>
                         <img src="assets/img/applic.jpg" alt="" class="applic__form-img">
                     </div>
                     <form class="applic__form">
@@ -560,41 +624,56 @@
                 </div>
             </div>
         </section>
+
         <section class="teachers">
             <div class="container teach__container">
                 <h2 class="title teach_title">Преподаватели <span class="color">курса</span> </h2>
                 <div class="teach__slider-wrap">
-                    <div class="teach-arrow__back-wrap"><button class="teach__arrow teach__arrow-back"></button></div>
-                    <ul class="teach__slider">
-                        <li class="teacher">
-                            <div class="teach__img-wrap">
-                                <div class="teach__img-background">
-                                    <img src="assets/img/teach1.svg" alt="" class="teach__img">
+                    <div class="teach-arrow__back-wrap"><button
+                            class="teach__arrow teach__arrow-back teach__slider-prev"></button></div>
+                    <div class="teach__slider">
+                        <ul class="teach__sliders teach__slider-line">
+                            <li class="teacher">
+                                <div class="teach__img-wrap">
+                                    <div class="teach__img-background">
+                                        <img src="assets/img/teach1.svg" alt="" class="teach__img">
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="teacher__title">Антон Андреевич</p>
-                            <p class="teacher__subtitle">Формулы, диаграммы, сводные таблицы. Возможности </p>
-                        </li>
-                        <li class="teacher">
-                            <div class="teach__img-wrap">
-                                <div class="teach__img-background">
-                                    <img src="assets/img/teach2.jpg" alt="" class="teach__img">
+                                <p class="teacher__title">Антон Андреевич</p>
+                                <p class="teacher__subtitle">Формулы, диаграммы, сводные таблицы. Возможности </p>
+                            </li>
+                            <li class="teacher">
+                                <div class="teach__img-wrap">
+                                    <div class="teach__img-background">
+                                        <img src="assets/img/teach2.jpg" alt="" class="teach__img">
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="teacher__title">Антон Андреевич</p>
-                            <p class="teacher__subtitle">Формулы, диаграммы, сводные таблицы. Возможности </p>
-                        </li>
-                        <li class="teacher">
-                            <div class="teach__img-wrap">
-                                <div class="teach__img-background">
-                                    <img src="assets/img/teach2.jpg" alt="" class="teach__img">
+                                <p class="teacher__title">Антон Андреевич</p>
+                                <p class="teacher__subtitle">Формулы, диаграммы, сводные таблицы. Возможности </p>
+                            </li>
+                            <li class="teacher">
+                                <div class="teach__img-wrap">
+                                    <div class="teach__img-background">
+                                        <img src="assets/img/teach2.jpg" alt="" class="teach__img">
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="teacher__title">Антон Андреевич</p>
-                            <p class="teacher__subtitle">Формулы, диаграммы, сводные таблицы. Возможности </p>
-                        </li>
-                    </ul>
-                    <div class="teach-arrow__next-wrap"><button class="teach__arrow teach__arrow-next"></button></div>
+                                <p class="teacher__title">Антон Андреевич</p>
+                                <p class="teacher__subtitle">Формулы, диаграммы, сводные таблицы. Возможности </p>
+                            </li>
+                            <li class="teacher">
+                                <div class="teach__img-wrap">
+                                    <div class="teach__img-background">
+                                        <img src="assets/img/teach2.jpg" alt="" class="teach__img">
+                                    </div>
+                                </div>
+                                <p class="teacher__title">Антон Андреевич</p>
+                                <p class="teacher__subtitle">Формулы, диаграммы, сводные таблицы. Возможности </p>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="teach-arrow__next-wrap"><button
+                            class="teach__arrow teach__arrow-next teach__slider-next"></button></div>
                 </div>
                 <ul class="slider-indicators teach__slider-indicators">
                     <li class="slider-indicator"></li>
@@ -603,64 +682,79 @@
                 </ul>
             </div>
         </section>
+
         <section class="gallery section-line-bottom">
             <div class="container">
                 <h2 class="title gallery__title">
                     <span class="color">Галерея</span> курса
                 </h2>
-            </div>
-            <!-- Слайдер -->
-            <div class="gallery__slider">
-                <!-- Список фото -->
-                <ul class="gallery__list">
-                    <li class="gallery__item">
-                        <img src="assets/img/gallery14.jpg" alt="" class="gallery__img">
-                    </li>
-                    <li class="gallery__item">
-                        <img src="assets/img/gallery25.jpg" alt="" class="gallery__img">
-                    </li>
-                    <li class="gallery__item">
-                        <img src="assets/img/gallery3.jpg" alt="" class="gallery__img">
-                    </li>
-                    <li class="gallery__item">
-                        <img src="assets/img/gallery14.jpg" alt="" class="gallery__img">
-                    </li>
-                    <li class="gallery__item">
-                        <img src="assets/img/gallery25.jpg" alt="" class="gallery__img">
-                    </li>
 
+                <!-- Слайдер -->
+                <div class="gallery__slider slider">
+                    <!-- Список фото -->
+                    <ul class="gallery__list slider-line">
+                        <li class="gallery__item">
+                            <img src="assets/img/gallery14.jpg" alt="" class="gallery__img">
+                        </li>
+                        <li class="gallery__item">
+                            <img src="assets/img/gallery25.jpg" alt="" class="gallery__img">
+                        </li>
+                        <li class="gallery__item">
+                            <img src="assets/img/gallery3.jpg" alt="" class="gallery__img">
+                        </li>
+                        <li class="gallery__item">
+                            <img src="assets/img/gallery14.jpg" alt="" class="gallery__img">
+                        </li>
+                        <li class="gallery__item">
+                            <img src="assets/img/gallery25.jpg" alt="" class="gallery__img">
+                        </li>
+
+                    </ul>
+                </div>
+                <ul class="slider-indicators gallery__slider-indicators">
+                    <li class="gallery-arrow__back-wrap">
+                        <button class="gallery__arrow gallery__arrow-back slider-prev"></button>
+                    </li>
+                    <li class="slider-indicator"></li>
+                    <li class="slider-indicator active"></li>
+                    <li class="slider-indicator"></li>
+                    <li class="gallery-arrow__next-wrap">
+                        <button class="gallery__arrow gallery__arrow-next slider-next"></button>
+                    </li>
                 </ul>
             </div>
-            <ul class="slider-indicators gallery__slider-indicators">
-                <li class="gallery-arrow__back-wrap">
-                    <button class="gallery__arrow gallery__arrow-back"></button>
-                </li>
-                <li class="slider-indicator"></li>
-                <li class="slider-indicator active"></li>
-                <li class="slider-indicator"></li>
-                <li class="gallery-arrow__next-wrap">
-                    <button class="gallery__arrow gallery__arrow-next"></button>
-                </li>
-            </ul>
         </section>
+
         <section class="questions">
             <div class="container quest__container">
                 <h2 class="title quest__title">Часто зааваемые <br> <span class="color">вопросы</span></h2>
                 <div class="questions-wrap">
-                    <div class="questions__theme">
-                        <div class="quest__theme-link">Оформление</div>
-                        <div class="quest__theme-link">Кэшбэк</div>
-                        <div class="quest__theme-link">Баланс и платежи</div>
-                        <div class="quest__theme-link">Накопительный счёт</div>
-                        <div class="quest__theme-link">Безопасность</div>
-                        <div class="quest__theme-link">Дополнительные преимущества по карте</div>
-                    </div>
+                    <ul class="questions__theme">
+                        <li class="quest__theme-link active"><a class="question__control" href="#theme-1">Оформление</a>
+                        </li>
+                        <li class="quest__theme-link"><a class="question__control" href="#theme-2">Кэшбэк</a></li>
+                        <li class="quest__theme-link"><a class="question__control" href="#theme-3">Баланс и платежи</a>
+                        </li>
+                        <li class="quest__theme-link"><a class="question__control" href="#theme-4">Накопительный
+                                счёт</a></li>
+                        <li class="quest__theme-link"><a class="question__control" href="#theme-5">Безопасность</a></li>
+                        <li class="quest__theme-link"><a class="question__control" href="#theme-6">Дополнительные
+                                преимущества по карте</a></li>
+                    </ul>
                     <div class="prog__select quest__select">
                         <select name="" id="" class="select-course">
-                            <option value="" selected>ПТМ в культурно-просветительских учреждениях</option>
+                            <option>Выберите тему</option>
+                            <option value="decor">Оформление</option>
+                            <option value="cashback">Кэшбэк</option>
+                            <option value="balance">Баланс и платежи</option>
+                            <option value="schet">Накопительный счёт</option>
+                            <option value="safety">Безопасность</option>
+                            <option value="additional">Дополнительные преимущества по карте</option>
                         </select>
                     </div>
-                    <div class="programm__accord-list quest__accord-list">
+
+                    <div class="programm__accord-list quest__accord-list active quest__accord-list__mobile decor"
+                        id="theme-1">
                         <div class="accord-item">
                             <div class="accord-link">
                                 <div class="accord-link__text">
@@ -737,9 +831,66 @@
                             </div>
                         </div>
                     </div>
+                    <div class="programm__accord-list quest__accord-list quest__accord-list__mobile cashback"
+                        id="theme-2">
+                        <div class="accord-item">
+                            <div class="accord-link">
+                                <div class="accord-link__text">
+                                    КАК ПРАВИЛЬНО ПРЫГАТЬ?
+                                </div>
+                                <div class="accord-link__icon">
+                                    <img src="assets/img/icon/accord.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="accord-body">
+                                <p class="accord-body__text">Таким образом реализация намеченных плановых заданий
+                                    влечет за собой процесс внедрения и модернизации позиций, что постоянное информа
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accord-item">
+                            <div class="accord-link">
+                                <div class="accord-link__text">
+                                    КАК ПРАВИЛЬНО ПРЫГАТЬ?
+                                </div>
+                                <div class="accord-link__icon">
+                                    <img src="assets/img/icon/accord.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="accord-body">
+                                <p class="accord-body__text">Таким образом реализация намеченных плановых заданий
+                                    влечет за собой процесс внедрения и модернизации позиций, что постоянное информа
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accord-item">
+                            <div class="accord-link">
+                                <div class="accord-link__text">
+                                    КАК ПРАВИЛЬНО ПРЫГАТЬ ЧЕРЕЗ КОСТЕР?
+                                </div>
+                                <div class="accord-link__icon">
+                                    <img src="assets/img/icon/accord.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="accord-body">
+                                <p class="accord-body__text">Таким образом реализация намеченных плановых заданий
+                                    влечет за собой процесс внедрения и модернизации позиций, что постоянное информа
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </section>
+
+        <script>
+            $(function () {
+                $('.questions').tabs();
+            });
+        </script>
+
         <div class="footer">
             <div class="container footer__container">
                 <img src="assets/img/logo_footer.svg" alt="" class="footer__logo">
@@ -845,6 +996,12 @@
             </div>
         </div>
     </div>
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <script src="assets/js/accordion.js"></script>
+    <script src="assets/js/format.js"></script>
+    <script src="/assets/js/gallery.js"></script>
+    <script src="/assets/js/priv.js"></script>
+    <script src="/assets/js/teach.js"></script>
 </body>
 
 </html>

@@ -191,6 +191,7 @@
   .header__mobile{
     display: none;
     width: 100%;
+    padding: 15px 0;
   }
 
   /* Бургер меню */
@@ -206,6 +207,10 @@
     z-index: 10;
     /* Относительно кнопки будем позиционировать все три элемента бургера */
     position: relative;
+    margin-top: 10px;
+}
+.hbt__search-mobile{
+    margin-top: 7px;
 }
 
   .burger__el {
@@ -242,3 +247,4 @@
     top: 16px;
     right: 16px;
 }
+

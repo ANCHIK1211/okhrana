@@ -11,7 +11,7 @@ margin-top: 179px;
 margin-bottom: 80px;
 }
 
-.priv-slider {}
+.priv-sliders {}
 
 .priv-slider__container {
     position: relative;
@@ -58,6 +58,7 @@ background: #FFF;
     border-radius: 20px;
     /* Спрятать все что выходит за пределы блока */
     overflow: hidden;
+    
 }
 
 .priv__img-wrap {
@@ -167,4 +168,21 @@ background: #FFF;
 
 .slider-indicator.active {
     background: #C28221;;
+}
+
+.priv__slider {
+    width: 1120px;
+    height: 468px;
+    overflow: hidden;
+
+}
+
+.priv__slider-line {
+    width: 1500px;
+    height: 468px;
+    display: flex;
+
+    position: relative;
+   
+    transition: all ease 1s;
 }

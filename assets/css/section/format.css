@@ -26,16 +26,7 @@
     color: #000;
 }
 
-.btn__distance.active {
- 
-margin: 0;
-}
 
-.active {}
-
-.btn__ochno {
-    color: #000;
-}
 
 .format__content {
     display: flex;
@@ -44,8 +35,8 @@ margin: 0;
 }
 
 .format__img-wrap {
-    margin-left: 13.8%;
-    margin-right: 8%;
+    text-align: center;
+    width: 50%;
 }
 
 .format__img {
@@ -57,7 +48,9 @@ margin: 0;
     flex-shrink: 0;
 }
 
-.format__info {}
+.format__info {
+    width: 50%;
+}
 
 .format__info-title {
     color: #000;
@@ -72,7 +65,7 @@ margin: 0;
     font-family: Roboto;
     font-size: 18px;
     font-weight: 400;
-    margin: 42px 50px 0 0;
+    margin: 42px 0px 0 0;
 }
 
 .format__select-mobile{
@@ -94,4 +87,19 @@ font-weight: 700;
 }
 .format__info-title__mobile{
     color: #C28221;
+}
+
+
+.format__content{
+    display: none;
+}
+
+.format__content.active{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn__distance.active{
+    text-decoration: underline 4px #C28221;
 }

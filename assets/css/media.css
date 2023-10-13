@@ -43,7 +43,7 @@
     .nav__mobile-wrap{
         display: flex;
         justify-content: flex-end;
-        
+        column-gap: 20px;
     }
     .fine__summ{
         font-size: 20px;
@@ -126,24 +126,31 @@
     }
 
     .btn__distance {
-        color: #FFF;
+        color: #000;
         border-radius: 20px;
-        background: #C28221;
+        border: #000 solid 1px;
+        background: #FFF;
         height: 79px;
         width: 50%;
         flex-shrink: 0;
-
+        text-align: center;
+        padding: 21px 0;
     }
-    .btn__ochno{
-        height: 79px;
-      width: 50%;
+    .btn__distance.active{
+        color: #FFF;
         border-radius: 20px;
-border: 1px solid #000;
+        border: #C28221;
+        background: #C28221;
+    
+
     }
     .format__btns{
         column-gap: 20px;
         font-size: 24px;
     }
+
+
+
     .format__img{
         width: 221px;
 height: 201px;
@@ -341,11 +348,16 @@ height: 127px;
      .format__img-wrap__mobile{
         display: block;
      }
-     .format__content{
+     .format__content.active{
         display: flex;
         flex-direction: column;
         text-align: center;
      }
+
+     .format__info{
+        width: 100%;
+     }
+
      .format__info-desc{
         text-align: left;
      }

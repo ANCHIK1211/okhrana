@@ -17,6 +17,7 @@ margin-bottom: 33px;
 .gallery__list {
     display: flex;
     column-gap: 1.5%;
+  
 }
 .gallery__item {
     flex: 0 0 348px;
@@ -67,4 +68,20 @@ margin-bottom: 33px;
     height: 1px;
     margin-left: -30%;
     background: #c4c4c4;
+}
+
+.slider {
+    width: 1074px;
+    height: 230px;
+    overflow: hidden;
+}
+
+.slider-line {
+    width: 1044px;
+    height: 230px;
+    display: flex;
+
+    position: relative;
+   
+    transition: all ease 1s;
 }

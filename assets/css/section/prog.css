@@ -134,7 +134,7 @@ margin-bottom: 7%;
     align-items: center;
     justify-content: space-between;
     padding: 30px 40px 30px 20px;
-    
+    cursor: pointer;
 }
 .accord-link__text {
     color: #000;
@@ -143,11 +143,45 @@ font-size: 16px;
 font-weight: 700;
 text-transform: uppercase;
 }
-.accord-link__icon {
+.accord-link__btns {
+    display: block;
     margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    width: 41px;
+    height: 41px;
 }
+.accord-link__btn1{
+    display: flex;
+    width: 41px;
+height: 41px;
+flex-shrink: 0;
+border-radius: 41px;
+border: 1px solid #000;
+font-size: 46px;
+text-align: center;
+align-items: center;
+}
+
+.accord-link__btn2{
+    display: none;
+    width: 41px;
+height: 41px;
+flex-shrink: 0;
+border-radius: 41px;
+border: 1px solid #000;
+font-size: 30px;
+text-align: center;
+align-items: center;
+justify-content: center;
+background-color: #000;
+color: #FFF;
+font-family: roboto;
+}
+
 .accord-body {
     padding: 0 40px 0 20px;
+    display: none;
 }
 .accord-body__duration {
     display: flex;
@@ -257,3 +291,20 @@ font-family: 'Roboto';
 font-size: 24px;
 font-weight: 700;
 }
+
+
+/* .accord-item .accord-link::after{
+    content: "";
+    position: relative;
+    display: flex;
+    justify-content: end;
+    font-family: 'Roboto';
+    width: 41px;
+    height: 41px;
+    flex-shrink: 0;
+    background-image: url(../../img/icon/accord+.svg);
+}
+
+.accord-link.active::after{
+    background-image: url(../../img/icon/accord-.svg);
+} */
